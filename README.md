@@ -1,6 +1,6 @@
-# Call of Duty 4 2D Head Up Displays(HUD) Maker
+# Call of Duty 4 2D Server Side Head Up Displays(HUD) Maker
 
-This tool is for Call of Duty 4 Server Admins which makes it easier to create simple 2D HUDs. By this you can create simple 2D HUDs **In-Game** which makes it easier and time saving for you.
+This tool is for Call of Duty 4 Server Admins which makes it easier to create simple Server side 2D HUDs. By this you can create simple 2D HUDs **In-Game** which makes it easier and time saving for you.
 
 ## Features 
 
