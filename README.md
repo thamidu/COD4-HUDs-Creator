@@ -65,10 +65,10 @@ This tool is for Call of Duty 4 Server Admins which makes it easier to create si
 	>This command allows you to adjust the Vertical Alignment (hud.AlignY) of a HUD. *The options avaiable for this command are **Top, Middle and Bottom.***
 	
 * **$savehud [hud_name STRING] *[level? BOOLEAN]***
-	>This command will save the C script for the defined HUD in a .txt file. It will be saved in `cod4directory/main/saves` folder. Set level as 1 if you need to set HUD as a Global HUD (Level). Default it will be saved as Player HUD (self).
+	>This command will save the C script for the defined HUD in a .txt file. It will be saved in `cod4directory/main/saves` folder. Set level as 1 if you need to set HUD as a Global HUD (Level). Default, it will be saved as Player HUD (self).
 	
 * **$saveall *[level? BOOLEAN]***
-	>This command will save every HUD you have created in a .txt file. It will be saved in `cod4directory/main/saves` folder. Set level as 1 if you need to set all HUDs as a Global HUDs (Level). Default they will be saved as Player HUDs (self).
+	>This command will save every HUD you have created in a .txt file. It will be saved in `cod4directory/main/saves` folder. Set level as 1 if you need to set all HUDs as a Global HUDs (Level). Default, they will be saved as Player HUDs (self).
 	
 ## Guide
 
