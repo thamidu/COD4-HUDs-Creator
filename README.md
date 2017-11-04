@@ -1,12 +1,12 @@
-# Call of Duty 4 Head Up Displays(HUD) Maker
+# Call of Duty 4 2D Head Up Displays(HUD) Maker
 
-This tool is for Call of Duty 4 Server Admins which makes it easier to create simple HUDs. By this you can create simple HUDs **In-Game** which makes it easier and time saving for you.
+This tool is for Call of Duty 4 Server Admins which makes it easier to create simple 2D HUDs. By this you can create simple 2D HUDs **In-Game** which makes it easier and time saving for you.
 
 ## Features 
 
-* Allows you to create Huds easily using by one command.
+* Allows you to create and edit HUDs by using in-game custom commands.
 * HUDs can easily Move, Resize, Sort and Recolor etc.
-* Allows you to save the C script for the HUD after you create and edit hud. 
+* Allows you to save the C script for the HUD after you create and edit HUDs. 
 
 ## Requirements
 
