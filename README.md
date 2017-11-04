@@ -15,7 +15,7 @@ This tool is for Call of Duty 4 Server Admins which makes it easier to create si
 ## Installation
 
 * Copy the main_shared folder to your `cod4directory/` folder.
-* Copy 'server.cfg' to your `cod4directory/main/` folder.
+* Copy 'server.cfg' in main folder to your `cod4directory/main/` folder.
 * Edit the 'server.cfg' file. *Instructions are in that file*.
 * Start the server with `+exec server.cfg` parameter.
 
