@@ -695,7 +695,7 @@ hudSettingsIndicator(setting){
 	if(!isDefined(self.tip)){
 		self.tip = NewClientHudElem(self);
 		self.tip.x = 30;
-		self.tip.y = 147;
+		self.tip.y = 135;
 		self.tip.horzAlign = "center";
 		self.tip.vertAlign = "middle";
 		self.tip.alignX = "left";
@@ -708,13 +708,13 @@ hudSettingsIndicator(setting){
 
 	while(1){
 		if(setting == "move"){
-			TipText = "^2Move UP : ^3[[{+forward}]]\n^2Move Down : ^3[[{+back}]]\n^2Move Left : ^3[[{+moveleft}]]\n^2Move Right : ^3[[{+moveright}]]\n"+"^2X: ^3" +self.hud[self.selectedHud].x +"   ^2Y: ^3" +self.hud[self.selectedHud].y;
+			TipText = "^2Move UP : ^3[[{+forward}]]\n^2Move Down : ^3[[{+back}]]\n^2Move Left : ^3[[{+moveleft}]]\n^2Move Right : ^3[[{+moveright}]]\n^2Save/Cancel: ^3[[{+melee}]] + [[{+activate}]]\n"+"^2X: ^3" +self.hud[self.selectedHud].x +"   ^2Y: ^3" +self.hud[self.selectedHud].y;
 		}
 		else if(setting == "shader"){
-			TipText = "\n\n^2Change Width : ^3[[{+moveleft}]] ^2/ ^3[[{+moveright}]]\n^2Change Height : ^3[[{+forward}]] ^2/ ^3[[{+back}]]\n" +"^2Width: ^3" +self.hud[self.selectedHud].width +"   ^2Height: ^3" +self.hud[self.selectedHud].height;
+			TipText = "\n^2Change Width : ^3[[{+moveleft}]] ^2/ ^3[[{+moveright}]]\n^2Change Height : ^3[[{+forward}]] ^2/ ^3[[{+back}]]\n^2Save/Cancel: ^3[[{+melee}]] + [[{+activate}]]\n" +"^2Width: ^3" +self.hud[self.selectedHud].width +"   ^2Height: ^3" +self.hud[self.selectedHud].height;
 		}
 		else if(setting == "text"){
-			TipText = "\n\n\n^2Change Font Size : ^3[[{+forward}]] ^2/ ^3[[{+back}]]\n" +"^2Font Scale: ^3" +self.hud[self.selectedHud].fontScale;
+			TipText = "\n\n^2Change Font Size : ^3[[{+forward}]] ^2/ ^3[[{+back}]]\n^2Save/Cancel: ^3[[{+melee}]] + [[{+activate}]]\n" +"^2Font Scale: ^3" +self.hud[self.selectedHud].fontScale;
 		}
 		else{
 			TipText = "";
