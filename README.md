@@ -45,9 +45,9 @@ This tool is for Call of Duty 4 Server Admins which makes it easier to create si
 	>This command can add Text to the HUD which you have selected.
 	
 * **$movehud**
-	>This command allows you to move a HUD easily.
+	>This command allows you to move a HUD easily. Press Melee Button + Use Button to stop Move.
 * **$resizehud**
-	>This command allows you to resize both text and shader HUDs easily.
+	>This command allows you to resize both text and shader HUDs easily. Press Melee Button + Use Button to stop Resize.
 
 * **$sort [sort_value INT]**
 	>This command will sort the HUD which you have selected. The HUD which have the hightest sort value, It will be on the front of other HUDs. The HUD which have the lowest sort value, it will be on the back of other HUDs. *sort value can be minus too*. 
@@ -78,4 +78,4 @@ This tool is for Call of Duty 4 Server Admins which makes it easier to create si
 
 * When you create a HUD, there will be small red DOT at the middle of the screen. That is the HUD origin indicator and it will point the HUD which you are currently working on.
 
-* If you have 2 or more HUDs and you need to edit some other HUD you have created; For that you must select the HUD which you need to edit. To select you have to use $selecthud < hud_name > command. 
+* If you have 2 or more HUDs and you need to edit some other HUD you have created; For that you must select the HUD which you need to edit. To select you have to use $selecthud < hud_name > command.  
